@@ -55,7 +55,7 @@ void lv_draw_about() {
   lv_obj_align(board, nullptr, LV_ALIGN_CENTER, 0, -60);
 
   author = lv_label_create(scr, "Author: " STRING_CONFIG_H_AUTHOR);
-  lv_obj_align(author, nullptr, LV_ALIGN_CENTER, 0, -100);)
+  lv_obj_align(author, nullptr, LV_ALIGN_CENTER, 0, -100);
 }
 
 void lv_clear_about() {
