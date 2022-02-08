@@ -30,6 +30,7 @@
 #include "env_validate.h"
 
 #define BOARD_INFO_NAME "MKS Robin Nano V1.3"
+#define SERVO0_PIN PA8
 
 //
 // EEPROM
