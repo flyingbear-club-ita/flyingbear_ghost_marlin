@@ -135,7 +135,7 @@
 #if HAS_TFT_LVGL_UI
   #define MT_DET_1_PIN                      PA4
   #define MT_DET_2_PIN                      PE6
-  #define MT_DET_PIN_STATE                  LOW
+  #define MT_DET_PIN_STATE                  FIL_RUNOUR_STATE
 
   #define WIFI_IO0_PIN                      PC13
   #define WIFI_IO1_PIN                      PC7
