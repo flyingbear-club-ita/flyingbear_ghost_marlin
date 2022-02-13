@@ -69,7 +69,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Clayblock, MKS Robin Nano V1.2)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Clayblock, MKS Robin Nano V1.2 - Stock)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -831,7 +831,7 @@
 // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
 #define X_MIN_ENDSTOP_INVERTING true // Set to true to invert the logic of the endstop.
 #define Y_MIN_ENDSTOP_INVERTING true // Set to true to invert the logic of the endstop.
-#define Z_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
+#define Z_MIN_ENDSTOP_INVERTING true // Set to true to invert the logic of the endstop.
 #define I_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define J_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
 #define K_MIN_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
@@ -1051,7 +1051,7 @@
  *      - normally-closed switches to GND and D32.
  *      - normally-open switches to 5V and D32.
  */
-#define Z_MIN_PROBE_PIN PC4 // Pin 32 is the RAMPS default
+//#define Z_MIN_PROBE_PIN 32 // Pin 32 is the RAMPS default
 
 /**
  * Probe Type
@@ -1088,7 +1088,7 @@
 /**
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
  */
-#define BLTOUCH
+//#define BLTOUCH
 
 /**
  * Touch-MI Probe by hotends.fr
@@ -1180,7 +1180,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 42, -1, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 44, 0, -1.08 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1448,7 +1448,7 @@
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define FIL_RUNOUT_ENABLED_DEFAULT true // Enable the sensor on startup. Override with M412 followed by M500.
   #define NUM_RUNOUT_SENSORS   1          // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
-
+  #define FIL_RUNOUT_PIN       PA4        // MT_DET_PIN
   #define FIL_RUNOUT_STATE     LOW        // Pin state indicating that filament is NOT present.
   #define FIL_RUNOUT_PULLUP               // Use internal pullup for filament runout pins.
   //#define FIL_RUNOUT_PULLDOWN           // Use internal pulldown for filament runout pins.
@@ -1546,9 +1546,9 @@
  */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-#define AUTO_BED_LEVELING_BILINEAR
+//#define AUTO_BED_LEVELING_BILINEAR
 //#define AUTO_BED_LEVELING_UBL
-//#define MESH_BED_LEVELING
+#define MESH_BED_LEVELING
 
 /**
  * Normally G28 leaves leveling disabled on completion. Enable one of
@@ -1747,7 +1747,7 @@
  * - Allows Z homing only when XY positions are known and trusted.
  * - If stepper drivers sleep, XY homing may be required again before Z homing.
  */
-#define Z_SAFE_HOMING
+//#define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
   #define Z_SAFE_HOMING_X_POINT X_CENTER  // X point for Z homing
@@ -2091,7 +2091,7 @@
  *
  * :['JAPANESE', 'WESTERN', 'CYRILLIC']
  */
-#define DISPLAY_CHARSET_HD44780 JAPANESE
+#define DISPLAY_CHARSET_HD44780 WESTERN
 
 /**
  * Info Screen Style (0:Classic, 1:Průša)

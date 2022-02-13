@@ -34,7 +34,7 @@
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-#define DETAILED_BUILD_VERSION "Flying Bear Ghost 5 - MKS Robin Nano V1.3 - STOCK"
+#define DETAILED_BUILD_VERSION "Flying Bear Ghost 5 - MKS Robin Nano V1.2 - Stock"
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
