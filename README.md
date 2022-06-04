@@ -9,7 +9,7 @@ Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.0.x per le 
 ###### Feature
 - versione Marlin 2.0.9.3
 - adattamento Marlin 2.0
-- MKS LGVL UI
+- COLOR UI
 - adattamento a molte configurazioni su caratterische delle stampanti Ghost 5
 - BLTouch su tutte le configurazioni
 - libero accesso a tutti i Source Code
