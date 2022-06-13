@@ -7,7 +7,7 @@ Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.1 per le st
 ![Flyingbear Club Ita Firmware](Image/fbghostitaLogo.jpg)
 
 ###### Feature
-- 
+
 - Versione Marlin 2.1
 - Adattamento Marlin 2.1
 - LGVG UI
