@@ -10,7 +10,7 @@ Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.1 per le st
 
 - Versione Marlin 2.1
 - Adattamento Marlin 2.1
-- LGVG UI
+- LGVL UI
 - Adattamento a molte configurazioni su caratterische delle stampanti Ghost 5
 - BLTouch su tutte le configurazioni
 - Libero accesso a tutti i Source Code
