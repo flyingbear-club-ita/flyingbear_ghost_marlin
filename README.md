@@ -1,18 +1,19 @@
-# Firmware Marlin 2.0.x Flyingbear Ghost 5
+# Firmware Marlin 2.1 Flyingbear Ghost 5
 
-Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.0.x per le stampanti Flying Bear Ghost 5
+Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.1 per le stampanti Flying Bear Ghost 5
 
 # _*Firmware in fase di test*_
 
 ![Flyingbear Club Ita Firmware](Image/fbghostitaLogo.jpg)
 
 ###### Feature
-- versione Marlin 2.0.9.3
-- adattamento Marlin 2.0
-- COLOR UI
-- adattamento a molte configurazioni su caratterische delle stampanti Ghost 5
+- 
+- Versione Marlin 2.1
+- Adattamento Marlin 2.1
+- LGVG UI
+- Adattamento a molte configurazioni su caratterische delle stampanti Ghost 5
 - BLTouch su tutte le configurazioni
-- libero accesso a tutti i Source Code
+- Libero accesso a tutti i Source Code
 
 # Versioni Disponibili
 MKS Robin Nano V1.3
@@ -31,7 +32,7 @@ MKS Robin Nano V1.2
 
 
 
-
+In caso di problemi nella configurazione non esitate a contattarci!
 
 ---
 

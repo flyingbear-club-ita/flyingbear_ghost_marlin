@@ -30,10 +30,10 @@
 #include "env_validate.h"
 
 #define BOARD_INFO_NAME "MKS Robin Nano V1.3"
+
 #define SERVO0_PIN       PA8   //  BLtouch
 #define FIL_RUNOUT_PIN   PA4   //  Filament Sensor
 #define SERVO3_PIN       PA4   //  Filament Sensor
-
 //
 // EEPROM
 // Use one of these or SDCard-based Emulation will be used
