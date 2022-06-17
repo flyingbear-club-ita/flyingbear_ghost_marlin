@@ -24,7 +24,7 @@ MKS Robin Nano V1.2
 - [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/STOCK)
 - [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/STOCK_BLTOUCH)
 - [TMC2209](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/TMC2209)
-- [TMC2209 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/TMC2209_BLTOUCH)(IN FASE DI TEST)
+- [TMC2209 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/TMC2209_BLTOUCH)
 
 MKS Robin Nano V1.3
 ###### Versione Marlin 2.1
