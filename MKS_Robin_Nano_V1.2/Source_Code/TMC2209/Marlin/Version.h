@@ -22,31 +22,31 @@
 #pragma once
 
 ////////////////////////////
-// VENDOR VERSION EXAMPLE //
+// VENDOR VERSION EXAMPLES //
 ////////////////////////////
 
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "2.1"
-#define FIRMWARE_NAME "MKS Robin Nano V1.3 TMC2209 - BLTOUCH"
+#define SHORT_BUILD_VERSION "2.0.9.3"
+
 /**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-//#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION
+#define DETAILED_BUILD_VERSION "Flying Bear Ghost 5 - MKS Robin Nano V1.2 - Stock"
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2022-06-04"
+//#define STRING_DISTRIBUTION_DATE "25/12/2021"
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+#define MACHINE_NAME "Flying Bear Ghost 5"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -59,13 +59,13 @@
 /**
  * Default generic printer UUID.
  */
-//#define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
+//#define DEFAULT_MACHINE_UUID "cede2a2f-05a7-1994-9b12-c55c62f367ff"
 
 /**
  * The WEBSITE_URL is the location where users can get more information such as
  * documentation about a specific Marlin release.
  */
-//#define WEBSITE_URL "marlinfw.org"
+#define WEBSITE_URL "https://flyingbearghost.com/"
 
 /**
  * Set the vendor info the serial USB interface, if changable

@@ -7,7 +7,6 @@ Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.1 per le st
 
 ###### Feature
 
-- Versione Marlin 2.1
 - LGVL UI
 - Adattamento a molte configurazioni su caratterische delle stampanti Ghost 5
 - BLTouch su tutte le configurazioni
@@ -15,22 +14,27 @@ Firmware adattati da Flyingbear Ghost Club Ita del Firmware Marlin 2.1 per le st
 
 # Versioni Disponibili
 MKS Robin Nano V1.1
+###### Versione Marlin 2.0.9.3
 - [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.1/Firmware/STOCK)(IN FASE DI TEST)
 - [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.1/Firmware/STOCK_BLTOUCH)(IN FASE DI TEST)
 
 MKS Robin Nano V1.2
+###### Versione Marlin 2.0.9.3
+
 - [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/STOCK)
 - [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/STOCK_BLTOUCH)
-- [TMC2209](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/TMC2209)(IN FASE DI TEST)
+- [TMC2209](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/TMC2209)
 - [TMC2209 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.2/Firmware/TMC2209_BLTOUCH)(IN FASE DI TEST)
 
 MKS Robin Nano V1.3
+###### Versione Marlin 2.1
 - [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.3/Firmware/STOCK)
 - [TMC2209](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.3/Firmware/TMC2209)
 - [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.3/Firmware/STOCK-BLTOUCH) 
 - [TMC2209 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.3/Firmware/TMC2209-BLTOUCH)
 
 MKS Robin Nano-S V1.3
+###### Versione Marlin 2.1
 - [TMC2225](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.3/Firmware/TMC2225)
 - [TMC2225 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/MKS_Robin_Nano_V1.3/Firmware/TMC2225-BLTOUCH)
 

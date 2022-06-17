@@ -160,8 +160,6 @@
     #endif
   }
 
-  #include "../../../libs/buzzer.h"
-
   void init_test_gpio() {
     endstops.init();
 
@@ -203,7 +201,12 @@
     #endif
   }
 
-  void mks_test_beeper() { buzzer.click(100); }
+  void mks_test_beeper() {
+    WRITE(BEEPER_PIN, HIGH);
+    delay(100);
+    WRITE(BEEPER_PIN, LOW);
+    delay(100);
+  }
 
   #if ENABLED(SDSUPPORT)
 
