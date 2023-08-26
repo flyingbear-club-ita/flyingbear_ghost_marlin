@@ -55,6 +55,7 @@
 // Servos
 //
 #define SERVO0_PIN                          PA8   // Enable BLTOUCH
+#define SERVO1_PIN                          PB2   // Enable BLTOUCH
 
 //
 // Limit Switches
@@ -146,14 +147,15 @@
   #define MT_DET_2_PIN                      PE6
   #define MT_DET_PIN_STATE                  LOW
 
-  #define WIFI_IO0_PIN                      PC13
-  #define WIFI_IO1_PIN                      PC7
-  #define WIFI_RESET_PIN                    PA5
+
 #else
   //#define POWER_LOSS_PIN                  PA2   // PW_DET
   //#define PS_ON_PIN                       PB2   // PW_OFF
   #define FIL_RUNOUT_PIN                    PA4
-  #define FIL_RUNOUT2_PIN                   PE6
+  #define FIL_RUNOUT2_PIN                   PE6  
+  #define WIFI_IO0_PIN                      PC13
+  #define WIFI_IO1_PIN                      PC7
+  #define WIFI_RESET_PIN                    PA5
 #endif
 
 //

@@ -13,12 +13,12 @@
 !! ATTENTION !!
 REMEMBER TO GO IN platformio.ini and select the right [env]
 
-Motherboard
+-->Motherboard
 
 BOARD_MKS_ROBIN_NANO             - MKS Robin Nano 1.1 / MKS Robin Nano 1.2 / MKS Reborn V2.0
 BOARD_MKS_ROBIN_NANO_V1_3_F4     - MKs Robin Nano 1.3 / MKS Robin Nano 1.3s
 
-Mainboard
+-->Mainboard
 
 NANO11_STOCK    -    MKS Robin Nano 1.1 (Reborn V2.0) - Driver 2x A4988 2x TMC2208    
 NANO11_2208     -    MKS Robin Nano 1.1 (Reborn V2.0) - Driver 4x TMC2208
@@ -40,32 +40,30 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 
 #ifndef USER_BUILD
 
-  #define MOTHERBOARD BOARD_MKS_ROBIN_NANO                     //<------- Define your motherboard
-  //#define USER_BOARD BOARD_MKS_ROBIN_NANO_V1_3_F4            //<-------       ONLY ONE!!
+ #define MOTHERBOARD BOARD_MKS_ROBIN_NANO                     //<------- Define your motherboard
+ //#define USER_BOARD BOARD_MKS_ROBIN_NANO_V1_3_F4            //<-------       ONLY ONE!!
 
 
-  #define NANO11_STOCK                                         //<------- Define your Mainboard
+ #define NANO11_STOCK                                         //<------- Define your Mainboard
 
-  #define FILAMENT_RUNOUT_SENSOR                               //<------- Enable or disable filament runout
+ #define FILAMENT_RUNOUT_SENSOR                               //<------- Enable or disable filament runout
 
-  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 400 }   //<------- Define your step/mm
+ #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 400 }   //<------- Define your step/mm
 
-  #define PIDEMP                                               //<------- Define your PIDTEMP
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+ #define PIDEMP                                               //<------- Define your PIDTEMP
+  #define DEFAULT_Kp  22.20
+  #define DEFAULT_Ki   1.08
+  #define DEFAULT_Kd 114.00
   
-  #define PIDETMPBED                                           //<------- Define your PIDTEMPBED
-   #define DEFAULT_bedKp 10.00
-   #define DEFAULT_bedKi .023
-   #define DEFAULT_bedKd 305.4
-
+ #define PIDETMPBED                                           //<------- Define your PIDTEMPBED
+  #define DEFAULT_bedKp 10.00
+  #define DEFAULT_bedKi .023
+  #define DEFAULT_bedKd 305.4
 
   //#define FBGHOST_BLTOUCH                                    //<------- Define if you have Bltouch or not
-   #if ENABLED (FBGHOST_BLTOUCH)
-    #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }                 //<------- Define your probe offset
-      
-   #endif
+  #if ENABLED (FBGHOST_BLTOUCH)
+   #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }                 //<------- Define your probe offset
+  #endif
 #endif
 
 
