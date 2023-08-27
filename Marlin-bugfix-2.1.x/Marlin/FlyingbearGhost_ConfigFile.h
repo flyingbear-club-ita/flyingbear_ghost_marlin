@@ -10,13 +10,21 @@
 *******************************                 **********************************************
 **********************************************************************************************
 
-!! ATTENTION !!
-REMEMBER TO GO IN platformio.ini and select the right [env]
 
--->Motherboard
+!! ATTENTION !!
+
+
+--> DEFAUTL_ENVS (Please change this parameter inside platformio.ini)
+
+default_envs = mks_robin_nano_v1v2           - MKS Robin Nano 1.1 / MKS Robin Nano 1.2 / MKS Reborn V2.0          
+default_envs = mks_robin_nano_v1_3_f4        - MKs Robin Nano 1.3 / MKS Robin Nano 1.3s
+
+
+--> MOTHERBOARD (Please change this parameter inside Configuration.h)
 
 BOARD_MKS_ROBIN_NANO             - MKS Robin Nano 1.1 / MKS Robin Nano 1.2 / MKS Reborn V2.0
 BOARD_MKS_ROBIN_NANO_V1_3_F4     - MKs Robin Nano 1.3 / MKS Robin Nano 1.3s
+
 
 -->Mainboard
 
@@ -37,12 +45,9 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 **********************************************************************************************
 *********   Here you will choose your card, your drivers and your personal settings   *******/
 
+// Choose the name from boards.h that matches your setup
 
 #ifndef USER_BUILD
-
- #define MOTHERBOARD BOARD_MKS_ROBIN_NANO                     //<------- Define your motherboard
- //#define USER_BOARD BOARD_MKS_ROBIN_NANO_V1_3_F4            //<-------       ONLY ONE!!
-
 
  #define NANO11_STOCK                                         //<------- Define your Mainboard
 
@@ -65,6 +70,16 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
    #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }                 //<------- Define your probe offset
   #endif
 #endif
+
+
+
+
+
+
+
+
+
+
 
 
 

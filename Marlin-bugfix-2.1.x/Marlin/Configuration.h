@@ -70,8 +70,8 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_MKS_ROBIN_NANO              //  MKS Robin Nano 1.1 / MKS Robin Nano 1.2 / MKS Reborn V2.0                    <------    Define your mainboard
-  //#define USER_BOARD BOARD_MKS_ROBIN_NANO_V1_3_F4     //  MKs Robin Nano 1.3 / MKS Robin Nano 1.3s                                     <------          ONLY ONE!
+ #define MOTHERBOARD BOARD_MKS_ROBIN_NANO                      //<------- Define your motherboard
+ //#define MOTHERBOARD BOARD_MKS_ROBIN_NANO_V1_3_F4            //<-------       ONLY ONE!!
 #endif
 
 /**
