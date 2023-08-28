@@ -60,7 +60,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
   #define DEFAULT_Ki   1.08
   #define DEFAULT_Kd 114.00
   
- #define PIDETMPBED                                           //<------- Define your PIDTEMPBED
+ #define PIDTEMPBED                                           //<------- Define your PIDTEMPBED
   #define DEFAULT_bedKp 10.00
   #define DEFAULT_bedKi .023
   #define DEFAULT_bedKd 305.4
