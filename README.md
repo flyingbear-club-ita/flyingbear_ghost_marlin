@@ -16,13 +16,13 @@
 ###### Istruzioni
 
 1) Modificare il "default-envs" in Platformio.ini con quello della propria scheda (default: MKS Robin Nano V1.1 / V1.2)
-   <h1 align="left"><img src = Image/Immagine 2023-08-29 210523.png /></h1>
+   <h1 align="left"><img src = Image/default-envs.png /></h1>
 3) Modificare la "MOTHERBOARD" in Configuration.h con quello della propria scheda (default: MKS Robin Nano V1.1 / V1.2)
-   <h1 align="left"><img src = Image/Immagine 2023-08-29 210619.png /></h1>
+   <h1 align="left"><img src = Image/motherboard.png /></h1>
 4) Editare i parametri di base inclusi in FlyingBearGhost_ConfigFile.h con i valori personalizzati in base alla vostra configurazione
-   <h1 align="left"><img src = Image/Immagine 2023-08-29 210641.png /></h1>
+   <h1 align="left"><img src = Image/config-file.png /></h1>
 5) Compilare attraverso il Tool "Auto Build Marlin" di Marlin Firmware, disponibile come estrnsione per Virtual Studio Code
-   <h1 align="left"><img src = Image/Immagine 2023-08-29 210725.png /></h1>
+   <h1 align="left"><img src = Image/autobuildmarlin.png /></h1>
 
 # Versioni Disponibili
 MKS Robin Nano V1.1
