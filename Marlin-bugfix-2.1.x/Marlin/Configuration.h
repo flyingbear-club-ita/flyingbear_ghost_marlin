@@ -1905,8 +1905,12 @@
   // Commands to execute on filament runout.
   // With multiple runout sensors use the %c placeholder for the current tool in commands (e.g., "M600 T%c")
   // NOTE: After 'M412 H1' the host handles filament runout and this script does not apply.
-  #define FILAMENT_RUNOUT_SCRIPT "M600"
-
+  #if ENABLED(TFT_COLOR_UI,TFT_CLASSIC_UI)
+    #define FILAMENT_RUNOUT_SCRIPT "M600"
+   #else
+    #define FILAMENT_RUNOUT_SCRIPT "M25"
+  #endif
+  
   // After a runout is detected, continue printing this length of filament
   // before executing the runout script. Useful for a sensor at the end of
   // a feed tube. Requires 4 bytes SRAM per sensor, plus 4 bytes overhead.
@@ -2602,7 +2606,7 @@
  *
  * :['JAPANESE', 'WESTERN', 'CYRILLIC']
  */
-#define DISPLAY_CHARSET_HD44780 JAPANESE
+//#define DISPLAY_CHARSET_HD44780 JAPANESE
 
 /**
  * Info Screen Style (0:Classic, 1:Průša)
@@ -3317,7 +3321,7 @@
  *   root of your SD card, together with the compiled firmware.
  */
 //#define TFT_CLASSIC_UI
-#define TFT_COLOR_UI
+//#define TFT_COLOR_UI
 //#define TFT_LVGL_UI
 
 #if ENABLED(TFT_COLOR_UI)
@@ -3345,7 +3349,7 @@
 #endif
 
 #if ENABLED(TFT_LVGL_UI)
-  //#define MKS_WIFI_MODULE // MKS WiFi module
+  #define MKS_WIFI_MODULE // MKS WiFi module
 #endif
 
 /**

@@ -1,9 +1,4 @@
 /**
-
-
-
-//    //
-
 **********************************************************************************************
 *******************************                 **********************************************
 *******************************    REFERENCE    **********************************************
@@ -51,7 +46,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 
  #define NANO11_STOCK                                         //<------- Define your Mainboard
 
- #define FILAMENT_RUNOUT_SENSOR                               //<------- Enable or disable filament runout
+ #define FILAMENT_RUNOUT_SENSOR                               //<------- Enable or disable filament runout sensor
 
  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 400 }   //<------- Define your step/mm
 
@@ -65,10 +60,15 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
   #define DEFAULT_bedKi .023
   #define DEFAULT_bedKd 305.4
 
-  #define FBGHOST_BLTOUCH                                    //<------- Define if you have Bltouch or not
+  //#define FBGHOST_BLTOUCH                                   //<------- Define if you have Bltouch or not
     #if ENABLED (FBGHOST_BLTOUCH)
-     #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }                 //<------- Define your probe offset
+     #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }               //<------- Define your probe offset
     #endif
+  
+ //#define TFT_CLASSIC_UI
+ //#define TFT_COLOR_UI                                      //<------- Define your printer UI
+ #define TFT_LVGL_UI
+
 #endif
 
 
@@ -233,9 +233,20 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 #endif
 
 #if ENABLED (FILAMENT_RUNOUT_SENSOR)
+ #define FIL_RUNOUT_PIN           PC4
   #if COUNT_ENABLED(NANO11_STOCK, NANO11_2208, NANO12_STOCK, NANO12_2208)
     #define FIL_RUNOUT_STATE      LOW  
    #else
     #define FIL_RUNOUT_STATE      HIGH 
   #endif
 #endif
+
+#if ANY(TFT_COLOR_UI,TFT_CLASSIC_UI)
+  #define DISPLAY_CHARSET_HD44780 JAPANESE
+  #define ADVANCED_PAUSE_FEATURE
+
+#else
+  #define DISPLAY_CHARSET_HD44780 WESTERN
+
+#endif
+
