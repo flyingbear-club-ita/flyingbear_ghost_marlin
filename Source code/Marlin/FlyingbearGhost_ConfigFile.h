@@ -116,7 +116,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 #endif  
 
 #if ENABLED (NANO11_2208)
-  #define USER_X_DIR true
+  #define USER_X_DIR false
   #define USER_X_TYPE TMC2208_STANDALONE
 
   #define USER_Y_DIR false
@@ -133,7 +133,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 #endif  
 
 #if ENABLED (NANO12_STOCK)
-  #define USER_X_DIR true
+  #define USER_X_DIR false
   #define USER_X_TYPE TMC2208_STANDALONE
 
   #define USER_Y_DIR false
@@ -150,7 +150,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 #endif  
 
 #if ENABLED (NANO12_2208)
-  #define USER_X_DIR true
+  #define USER_X_DIR false
   #define USER_X_TYPE TMC2208_STANDALONE
 
   #define USER_Y_DIR false
