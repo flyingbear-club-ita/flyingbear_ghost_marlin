@@ -28,30 +28,32 @@
 MKS Robin Nano V1.1
 ###### Versione Marlin 2.1.x
 ###### LVGL UI
-- [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.1/STOCK)
-- [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.1/STOCK_BLTOUCH)
+- [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.1/STOCK)
+- [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.1/STOCK%20-%20BLTOUCH)
+- [TMC2208](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.1/TMC2208)
+- [TMB2208 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.1/TMC2208%20-%20BLTOUCH)
 ---
 MKS Robin Nano V1.2
 ###### Versione Marlin 2.1.x
 ###### LVGL UI
-- [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.2/STOCK)
-- [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.2/STOCK_BLTOUCH)
-- [TMC2208](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.2/TMC2208)
-- [TMC2208 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.2/TMC2208_BLTOUCH)
+- [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.2/STOCK)
+- [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.2/STOCK%20-%20BLTOUCH)
+- [TMC2208](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.2/TMC2208)
+- [TMC2208 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.2/TMC2208%20-%20BLTOUCH)
 ---
 MKS Robin Nano V1.3
 ###### Versione Marlin 2.1.x
 ###### LVGL UI
-- [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.3/STOCK)
-- [TMC2208](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.3/TMC2208)
-- [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.3/STOCK-BLTOUCH) 
-- [TMC2208 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.3/TMC2208-BLTOUCH)
+- [Stock](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.3/STOCK)
+- [Stock - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.3/STOCK%20-%20BLTOUCH) 
+- [TMC2208](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.3/TMC2208)
+- [TMC2208 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano%201.3/TMC2208%20-%20BLTOUCH)
 ---
 MKS Robin Nano-S V1.3
 ###### Versione Marlin 2.1.x
 ###### LVGL UI
-- [TMC2225](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.3/STOCK)
-- [TMC2225 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS_Robin_Nano_V1.3/STOCK-BLTOUCH)
+- [TMC2225](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano-S%201.3/STOCK)
+- [TMC2225 - Bltouch](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin/tree/main/Firmware/MKS%20Robin%20Nano-S%201.3/STOCK%20-%20BLTOUCH)
 
 ---
 
