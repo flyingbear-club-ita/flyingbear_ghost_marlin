@@ -44,7 +44,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 
 #ifndef USER_BUILD
 
- #define NANO11_STOCK                                         //<------- Define your Mainboard
+ #define NANO12_STOCK                                         //<------- Define your Mainboard
 
  #define FILAMENT_RUNOUT_SENSOR                               //<------- Enable or disable filament runout sensor
 
@@ -233,7 +233,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 #endif
 
 #if ENABLED (FILAMENT_RUNOUT_SENSOR)
- #define FIL_RUNOUT_PIN           PC4
+ #define FIL_RUNOUT_PIN           PA4
   #if COUNT_ENABLED(NANO11_STOCK, NANO11_2208, NANO12_STOCK, NANO12_2208)
     #define FIL_RUNOUT_STATE      LOW  
    #else
