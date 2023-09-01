@@ -200,16 +200,16 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 #endif  
 
 #if ENABLED (NANO13S_STOCK)
-  #define USER_X_DIR false
+  #define USER_X_DIR true
   #define USER_X_TYPE TMC2208_STANDALONE
 
-  #define USER_Y_DIR false
+  #define USER_Y_DIR true
   #define USER_Y_TYPE TMC2208_STANDALONE
 
-  #define USER_Z_DIR true
+  #define USER_Z_DIR false
   #define USER_Z_TYPE TMC2208_STANDALONE
 
-  #define USER_E0_DIR true
+  #define USER_E0_DIR false
   #define USER_E0_TYPE TMC2208_STANDALONE
 
   #define SERVO0_PIN                          PA8   // Enable BLTOUCH
