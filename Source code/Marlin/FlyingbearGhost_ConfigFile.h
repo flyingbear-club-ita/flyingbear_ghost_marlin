@@ -50,7 +50,7 @@ NANO13S_STOCK   -    MKS Robin Nano 1.3s - Driver 4x TMC2225
 
  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 400 }   //<------- Define your step/mm
 
- #define PIDEMP                                               //<------- Define your PIDTEMP
+ #define PIDTEMP                                               //<------- Define your PIDTEMP
   #define DEFAULT_Kp  22.20
   #define DEFAULT_Ki   1.08
   #define DEFAULT_Kd 114.00
